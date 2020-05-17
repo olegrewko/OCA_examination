@@ -7,7 +7,7 @@ package Lesson12;
     int doorCount;
     float m;
 
-    Car(String color, String engine2, int doorCount, float m) {
+   public Car(String color, String engine2, int doorCount, float m) {
        count++;
        this.color = color;
        this.engine = engine2;

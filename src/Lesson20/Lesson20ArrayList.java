@@ -7,6 +7,8 @@ public class Lesson20ArrayList {
         ArrayList <String> list = new ArrayList();
         list.add("poka");
         list.add("privet");
+        Car002 c = new Car002();
+
         list.add("ok");
         list.add(1,"hello");
         for(String s:list) {
@@ -27,6 +29,8 @@ public class Lesson20ArrayList {
         for(String s:list) {
             System.out.print(s + " ");
         }
+        System.out.println("---------");
+        System.out.println(list.get(0));
 
 
 

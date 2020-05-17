@@ -7,6 +7,7 @@ public class Car {
     static int count;
 
     public static void changeA(int b) {
+        count++;
         Car c = new Car("black", "V5");
         c.a = b;
     }

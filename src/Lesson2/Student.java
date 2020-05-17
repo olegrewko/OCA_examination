@@ -31,6 +31,9 @@ public class Student {
         System.out.println(st2.count);
         System.out.println();
         showCount();
+        float f = 3.14f;
+        int x = (int) f;
+        System.out.println("x = " + x);
 
     }
 

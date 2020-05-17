@@ -37,8 +37,8 @@ class Dog extends Pet  {
     }
 
         }
-class Cat extends Pet {
-    Cat (String name) {
+ class Cat extends Pet {
+    public Cat(String name) {
         this.name = name;
         System.out.println("I am cat my name is" + name);
     }

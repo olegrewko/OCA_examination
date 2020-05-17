@@ -1,8 +1,16 @@
 package Lesson26;
 
-import java.util.ArrayList;
-
 public class Test2 {
+    @Override
+    public int hashCode () {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals (Object obj) {
+        return super.equals(obj);
+    }
+
     public static void main(String[] args) {
 
     }
